@@ -1,0 +1,532 @@
+:root{
+    --preto:#202020;
+    --cinza:#909090;
+    --branco:#FFFFFF;
+    --amarelo:#FFCB47;
+
+    --preto32-05:rgba(32,32,32,0.5);
+
+    --font-size-22:22px;
+    --font-size-32:32px;
+    --font-size-16:16px;
+    --font-size-82:82px;
+    --font-size-42:42px;
+    --font-weight900:900;
+    --font-weight400:400;
+    --line-height27:27px;
+    --line-height37:37px;
+    --line-height26:26px;
+    --line-height20:20px;
+    --line-height22:22px;
+    --line-height50:50px;
+    --line-height94:94px;
+    --font-elsie:"'Elsie Swash Cap',cursive";
+    --font-montserrat:"'Montserrat',sans-serif"
+}
+
+body{
+    background: url("../img/Linhas.png");
+}
+
+section{
+    width: 100%;
+    clear: both;
+}
+
+.color-yello{
+    color: var(--amarelo);
+}
+
+.line-height20{
+    line-height: 20px;
+}
+
+.main-title{
+    font-family: var(--font-elsie);
+    font-size: var(--font-size-32);
+    font-weight: var(--font-weight900);
+    line-height: var(--line-height37);
+    color: var(--preto);
+ }
+ 
+ .secondary-title{
+    font-family: var(--font-montserrat);
+    font-weight: var(--font-weight400);
+    font-size: var(--font-size-22);
+    line-height: var(--line-height27);
+    color: var(--cinza);
+ }
+ 
+ .default-text{
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight400);
+    line-height: var(--line-height26);
+    color: var(--preto32-05);
+    font-family: var(--font-montserrat);
+ }
+
+ .subtitle{
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight400);
+    font-family: var(--font-montserrat);
+    line-height: var(--line-height26); 
+ }
+ 
+ .font-size{
+    font-size: var(--font-size-22);
+ }
+
+ .font-size22{
+    font-size: var(--font-size-22);
+ }
+
+ .colorBlack{
+    color: var(--preto);
+ }
+ 
+ .coloerWhite{
+    color: var(--branco);
+ }
+ 
+header img{
+    height: 50px;
+    width: 100%;
+}
+    
+.newsletter{
+    background: url("../img/fundoNewsletter.png") no-repeat 100% 100%;
+    background-position: right;
+    width: auto;
+}
+.newsletter-infos{
+    width: 80%;
+   
+}
+.newsletter img{
+    height: 100%;
+}
+
+.newsletter input{
+    height:75px;
+}
+
+.newsletter span img{
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter button{
+    background-color: var(--amarelo);
+    height: 50x;
+    line-height:var(--line-height50);
+    color: var(--branco);
+}
+
+.guia-de-compra{
+    width: auto;
+    height: 100%;
+}
+
+.guia-de-compra-passos{
+    width: 90%;
+}
+
+.guia-de-compra-passos ,.produto-item{
+    background-color: var(--branco);
+}
+
+.guia-de-compra-passos img{
+    width: 50px;
+    height: 50px;
+}
+
+#planta-guia-compras{
+    display: none;
+}
+
+.section-produtos{
+    width: 94%;
+    margin: 0% 1%;
+    padding-top: 5%;
+    margin: auto;
+}
+
+.section-testimonials{
+    width: 90%;
+}
+
+.testimonials img{
+    width: 100%;
+    height: 600px;
+}
+
+.testimonials-text{
+    padding-top: 90px;
+}
+
+.testimonials-text h2{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.testimonials-text p{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#testimonials-icon{
+    width: 72px;
+    height: 72px;
+}
+
+#testimonials-set-left{
+    width: 14px;
+    height: 14px;
+    margin-right:31px;
+}
+
+#testimonials-set-right{
+    width: 71px;
+    height: 14px;
+}
+
+.section-vid{
+    width:94%;
+    padding-top:63px ;
+    margin: auto;
+}
+
+footer{
+    background-image: url("../img/fundoRodape.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30% 100%;
+}
+
+.footer-icones img{
+    width: 30px;
+    height: 30px;
+} 
+
+#footer-img{
+    display: none;
+}
+
+#menuNav{
+    display: none;
+}
+
+.nav-link{
+    color: var(--preto);
+}
+
+.nav-link:hover{
+    color: var(--amarelo); 
+}
+
+
+.section-infoProduto button{
+    height:75px;
+    color: var(--branco);
+
+}
+
+.section-infoProduto button:last-child{
+    border: 1px solid var(--amarelo);
+    background-color: var(--branco);
+    color: var(--amarelo);
+}
+
+.section-produto{
+    width: 90%;
+    margin: auto;
+}
+
+#lerMais{
+    color: var(--amarelo);
+}
+
+#iconeProdutoInfo{
+    width: 72px;
+    height: 72px;
+}
+
+
+#produtoInfo{
+    width: 410px;
+    height: 410px;
+    margin-left: 3%; 
+}
+.carrinho{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 220vh;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+
+.carrinho-info{
+    background-color: var(--branco);
+    width: 90%;
+    float: right;
+}
+
+.img-fechar{
+    width:12px;
+    height: 12px;
+}
+
+.img-setaBaixo{
+    width: 12px;
+    height: 6px;
+}
+
+.img-produtoCarrinho{
+    width: 64px;
+    height: 43px;
+}
+
+.carrinho-item{
+    border-bottom: 1px solid var(--preto32-05);
+    width: 90%;
+    margin: auto;
+}
+
+#carrinho-active{
+    display: block;
+}
+
+.content-finalizarCompra{
+    width: 98%;
+    margin: auto;
+}
+
+.content-resumoPedido{
+    width: 96%;
+    margin: auto;
+    background-color: var(--branco);
+}
+
+#mainPagamentos{
+    width: 98%;
+    margin: auto;
+}
+
+.bordaInput{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+@media screen and (min-width:576px) {
+  
+.carrinho-info{
+    width: 70%;
+}
+
+.content-resumoPedido,.content-finalizarCompra{
+    width: 86%;
+}
+}
+
+@media screen and (min-width:768px) {
+    .newsletter{
+        position: relative;
+        width: 100%;
+    }
+
+    .newsletter-infos button{
+        height: 64px; 
+    }
+  
+    .guia-de-compra-passos{
+        width: 50%;
+    }
+
+    #inputnewsletter{
+        width: 70%;
+    }
+
+    .section-produtos{
+        width: 90%;
+        margin: 0% 5%;
+    }
+
+    footer{
+        background-image: url("../img/fundoRodapeDektop.png");
+        background-repeat: no-repeat;
+        background-position:left bottom;
+        background-size: 40% 30%;
+    }
+
+    #produto-desktop{
+        width: 300px;
+        height: 300px;
+    }
+
+    .section-infoProduto{
+        background-image: url("../img/fundoProdutoInfo.png");
+        background-repeat: no-repeat;
+        background-position:left top;
+        background-size: contain;
+    }
+
+    .carrinho-info{
+        width: 50%;
+    }
+
+    .content-resumoPedido ,.content-finalizarCompra{
+        width: 56%;
+    }
+   
+}
+
+@media screen and (min-width:992px){
+    .newsletter{
+        position: relative;
+        width: 90%;
+        margin: 8% 0% 5% 10%;
+        background: url("../img/fundoNewsletterDesktop.png") no-repeat;
+        background-size: 50% 100%;
+        background-position: right;
+    }
+    
+    .newsletter-infos{
+        width: 70%;
+    }
+
+    .section-produtos{
+        width: 80%;
+        margin: 0% 10%;
+    }
+
+    #produto-desktop{
+        width: 400px;
+        height: 400px;
+  
+    }
+
+    .carrinho-info{
+        width: 40%;
+    }
+
+    .content-resumoPedido ,.content-finalizarCompra{
+        width: 46%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .newsletter-infos{
+        width: 60%;
+    }
+   
+    .guia-de-compra-passos{
+        min-width:30%;
+        width: auto;
+    }
+
+    #iconeCarrinhoMenu{
+        display: none;
+    }
+
+    #menuNav,#planta-guia-compras{
+        display: block;
+    }
+
+    .section-testimonials{
+        display: block;
+    }
+
+    .section-vid{
+        width: 90%;
+        margin: auto;
+        padding-top: 120px;
+    }
+
+    .section-vid .card{
+        width: 23%;
+    } 
+
+    #footer-img{
+        display:block;
+    }
+
+    #produto-desktop{
+        width: 500px;
+        height: 500px;
+    }
+    
+    .carrinho-info{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:1400px){
+    .newsletter-infos{
+        width: 50%;
+    }
+
+    .section-vid{
+        width: 80%;
+        margin: auto;
+    }
+
+    #produto-desktop{
+        width: 700px;
+        height: 500px;
+    }
+
+    .content-resumoPedido ,.content-finalizarCompra{
+        width: 36%;
+    }
+
+
+   
+}
+
+@media screen and (min-width:1800px){
+    .newsletter-infos{
+        width: 40%;
+    }
+
+    .section-testimonials{
+        width: 80%;
+    }
+
+    .testimonials img{
+        height: 500px;
+    }
+
+    .main-title{
+        font-size: var(--font-size-82);
+        line-height: var(--line-height94);
+    }
+
+    .font-size{
+        font-size: var(--font-size-42);
+    }
+
+    .font-size32{
+        font-size: var(--font-size-32);
+        line-height: normal;
+    }
+    
+    #produto-desktop{
+        width: 800px;
+        height: 600px;
+    }
+
+    .section-produto{
+        width: 70%;
+        margin: auto;   
+    }
+
+    #produtoInfo{
+        width: 380px;
+        height: 380px;
+        margin-left: 3%; 
+    }
+    .carrinho-info{
+        width: 20%;
+    }
+
+   
+}
